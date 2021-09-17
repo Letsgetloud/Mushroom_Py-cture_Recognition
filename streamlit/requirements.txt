@@ -3,5 +3,5 @@ gdown==3.6.4
 matplotlib==3.2.2
 numpy==1.19.5
 pandas==1.1.5
-tensorflow==2.4.0
+tensorflow==2.6.0
 joblib
