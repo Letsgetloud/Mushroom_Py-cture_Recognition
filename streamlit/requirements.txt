@@ -3,9 +3,4 @@ gdown==3.6.4
 matplotlib==3.2.2
 numpy==1.19.5
 pandas==1.1.5
-tensorflow-datasets==4.0.1
-tensorflow-estimator==2.6.0
-tensorflow-gcs-config==2.6.0
-tensorflow-hub==0.12.0
-tensorflow-metadata==1.2.0
-tensorflow-probability==0.13.0
+tensorflow==2.4.0
