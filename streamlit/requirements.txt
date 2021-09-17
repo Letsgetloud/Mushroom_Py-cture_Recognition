@@ -3,7 +3,6 @@ gdown==3.6.4
 matplotlib==3.2.2
 numpy==1.19.5
 pandas==1.1.5
-tensorflow @ file:///tensorflow-2.6.0-cp37-cp37m-linux_x86_64.whl
 tensorflow-datasets==4.0.1
 tensorflow-estimator==2.6.0
 tensorflow-gcs-config==2.6.0
