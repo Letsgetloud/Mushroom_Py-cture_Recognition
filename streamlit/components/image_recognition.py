@@ -373,7 +373,7 @@ class CImageRecognition(CBaseComponent):
          fig, ax = plt.subplots(2,4,figsize=(15,6))
 
          # Ensure that the models are loaded
-         for cnt, model in enumerate(models.getMembers()):
+         for cnt, model in enumerate(models.getMembers()[:5]):
 
             # Get the model name
             modelName = model.getName()
