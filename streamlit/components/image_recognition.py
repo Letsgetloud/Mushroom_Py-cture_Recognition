@@ -9,6 +9,8 @@ import pandas as pd
 import streamlit as st
 import matplotlib.pyplot as plt
 
+from keras import backend as K 
+
 # Import User Libraries
 from components.base_component                     import CBaseComponent
 from session_state.session_state_utils             import CSSKeys as ssKeys
@@ -498,6 +500,8 @@ class CImageRecognition(CBaseComponent):
                self.doMushroomClassification(console = console)
 
                st.markdown('''<p>         </p>  ''', unsafe_allow_html=True)
+               
+               K.clear_session()
 
 
          pp2= st.container()
