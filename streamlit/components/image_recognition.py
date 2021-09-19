@@ -411,6 +411,8 @@ class CImageRecognition(CBaseComponent):
             if j == 4:
                i += 1
                j = 0
+            
+            del model 
 
          st.pyplot(fig)
          console.empty()
