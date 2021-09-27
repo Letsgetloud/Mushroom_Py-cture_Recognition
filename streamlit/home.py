@@ -43,7 +43,7 @@ def app():
                 'Russula'
           <p>
           Our model is a combination of the 8 Efficient net CNN family model proved to perform better than individually. 
-          This application is a proof of concept than can be replicated and scaled to many more genus or species if necesary.
+          This application is a proof of concept than can be replicated and scaled to many more genus or species if necessary.
           </p>
           It contains two main functions : 
                 <h3><b><i>Classification</i></b></h3>
@@ -57,6 +57,10 @@ def app():
                 the models are using for their predictions. This helps understand if the correct patterns are used. If not, it can mean that
                 the model has not learned properly, that the training phase should be improved, or more pictures could be needed.
                 </p> 
+                
+          <p>
+          Due to streamlit limitations (1GB of RAM maximum), all functionalities may not be available, please contact us via LinkedIn for more information
+          </p>
 
           </p>
           ''', unsafe_allow_html=True)
